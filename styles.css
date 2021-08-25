@@ -1,0 +1,106 @@
+/*####################### Generale ###############################*/
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Open sans', sans-serif;
+}
+
+.page {
+    display: flex;
+   height: 100%;
+}
+
+.part1 {
+   flex: 1 1 0;
+   padding-left: 4rem;
+}
+
+.part2 {
+    flex: 2 2 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(Images/home_interieur.jpg);
+    background-size: contain;
+}
+/*################################## Secion 1 ##########################################*/
+.icon i {
+    font-size: 40px;
+    padding-top: 20px;
+    color: #164F3F;
+}
+
+.block1 {
+    margin-top: 10rem;
+}
+
+.block1 h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #164F3F;
+}
+.block1 p {
+   font-size: 13px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+   color: #92959C;
+}
+.button {
+    padding: 15px 32px;
+    border-radius: 1px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #164F3F;
+    color: #fafafa;
+}
+/*############################### Section 2 ##################################*/
+.nav {
+    flex: 0 0 60px;
+    display: flex;
+    margin: 0 auto;
+    padding: 15px;
+}
+.nav p {
+    font-size: 16px;
+    border-bottom: 2px solid #b3b5b7;
+}
+
+.link {
+    margin-right: 25px;
+}
+
+.nav a{
+    padding-bottom: 4px;
+    text-decoration: none;
+    color: #fafafa;
+    /* border-bottom: 2px solid #b3b5b7; */
+}
+.nav a:hover {
+    border-bottom: 2px solid #fafafa;
+}
+.description {
+    flex: 0 0 50px;
+    margin-left: 15rem;
+    background-color: #fff;
+    padding: 10px 40px;
+}
+.description h1 {
+    text-transform: capitalize;
+    color: #164F3F;
+}
+.description p {
+    font-size: 16px;
+    color: #49565D;
+}
+.description a {
+  text-decoration: none;
+  color: #164F3F;
+}
+
+#creator {
+    font-size: 13px;
+    color: #92959C;
+}
